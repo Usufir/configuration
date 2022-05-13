@@ -3,7 +3,7 @@ server{
   listen [::]:80;
   
   root var/www/siteWeb;
-  server_name test.be www.test.be;
+  server_name projetdocker.be www.projetdocker.be;
   
   location / {
     try_files $uri $uri/ =404;
