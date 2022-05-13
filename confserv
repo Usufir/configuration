@@ -2,7 +2,7 @@ server{
   listen 80;
   listen [::]:80;
   
-  root var/www/lesite;
+  root var/www/siteWeb;
   serveur_name test.be www.test.be
   
   location / {
